@@ -88,6 +88,25 @@ function Menu() {
          price={12}
          picture="pizzas/funghi.jpg" 
          />
+         <Pizza 
+         name="Pizza Spinaci" 
+         ingredients="Tomato, mozzarella, spinach" 
+         price={12}
+         picture="pizzas/spinaci.jpg" 
+         />
+         <Pizza 
+         name="Pizza Salamino" 
+         ingredients="Tomato, mozarella, pepperoni" 
+         price={15}
+         picture="pizzas/salamino.jpg" 
+         />
+         <Pizza 
+         name="Pizza Prosciutto" 
+         ingredients="Tomato, mozarella, ham, aragula, burrata cheese" 
+         price={18}
+         picture="pizzas/prosciutto.jpg" 
+         soldOut="true"
+         />
         </main>
     );
     }
